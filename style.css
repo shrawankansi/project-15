@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+    height: 420vh;
+    font-family: Poppins, sans-serif;
+}
+/* start header navbar and menu list, logo */
+/* //////////////////////////////////////////////////////////////////////////////// */
+.navbar{
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    margin-top: 20px;
+}
+.navbar img{
+   margin-left:40px;
+    
+}
+.navbar div ul li{
+    
+    color: #fff;
+    display: inline;
+    top: 10px;
+    margin-left: 30px;
+}
+
+
+
+.navbar div ul{
+    margin-top: 10px;
+    margin-left: 35vw;
+}
+
+/* image section Visual Designer */
+.image-main img{
+    width: 500px;
+    margin-left: 80px;
+}
+.image-main .my-intro{
+    /* background-color: aqua; */
+    margin-left: 90vh;
+    position: absolute;
+    top:190px;
+    height: 300px;
+}
+.image-main .my-intro p:nth-child(1){
+   
+    color:  #cc3333;
+    font-size: 20px;
+
+}
+.image-main .my-intro h1{
+    
+    color: #fff;
+    font-size: 60px;
+
+}
+.image-main .my-intro p:nth-child(3){
+   
+    color: #fff;
+    font-size: 15px;
+    
+    width: 500px;
+    margin-top: 10px;
+}
+.image-main .my-intro button{
+    background-color: #cc3333;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #fff;
+    border: hidden;
+    border-radius: 3px;
+}
+.card-section .box-cube{
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+    width: 100vh;
+    height: 120vh;
+
+}
+
+.card-section .box-cube .box-col1 {
+    /* background-color: rgb(236, 142, 19); */
+    
+   display: flex;
+    justify-content: space-around;
+    width: 140vh;
+    height: 50vh;
+    align-items: center;
+    margin-left: 200px; 
+    margin-top: 90px;
+
+
+}
+.box-col1  a{
+    color: #cc3333;
+    font-size: 15px;
+    text-decoration: none;
+   
+}
+.card-section .box-cube .box-col1 .card-1{
+    background-color: rgb(24, 24, 23);
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    padding: 80px 60px;
+}
+.card-section .box-cube .box-col1 .card-1 img{
+    width: 70px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.card-section .box-cube .box-col1 .card-2{
+    background-color:  #cc3333;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    padding: 80px 60px;
+
+}
+.box-col1 .card-2 a{
+    color: rgb(254, 254, 255);
+    
+}
+.card-section .box-cube .box-col1 .card-2 img{
+    width: 70px;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+.card-section .box-cube .box-col1 .card-3{
+    background-color: rgb(24, 24, 23);
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    padding: 80px 60px;
+}
+.card-section .box-cube .box-col1 .card-3 img{
+    position: absolute;
+    top: 100px;
+    width: 70px;
+    left: 900px;
+}
+/* box-col2 start here */
+
+.box-cube .box-col2{
+    /* background-color: aqua; */
+    margin-left: 215px;
+    position: absolute;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    border: 5px;
+    /* gap: 35px; */
+    height: 50vh;
+    width: 135vh;
+
+} 
+/* //////////////////////////////////// */
+.box-cube .box-col2 .card-4 {
+/* background-color: rgb(24, 24, 23); */
+color: #fff;
+font-size: 30px;
+width: 41vh;
+height: 35vh;
+}
+.box-cube .box-col2 .card-4 h1{
+
+    font-size: 100px;
+    margin-left: 70px;
+    color:  #cc3333;
+}
+.box-cube .box-col2 .card-4 p{
+    margin-left: 25px;
+}
+/* /////////////////////////////// */
+.box-cube .box-col2 .card-5{
+    
+    width: 41vh;
+    height: 35vh;
+    font-size: 20px;
+    color:   #cc3333;
+}
+
+/* //////////////////////////////////////////// */
+.box-cube .box-col2 .card-5 .child-box1{
+    background-color: rgb(24, 24, 23);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+.box-cube .box-col2 .card-5 .child-box1 h2 {
+    font-size: 40px;
+
+
+}
+.box-cube .box-col2 .card-5 .child-box1 p{
+    color: #fff;
+    /* margin-top: 10px; */
+}
+.box-cube .box-col2 .card-5 .child-box2{
+    background-color: rgb(24, 24, 23);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    margin-top: 30px;
+}
+.box-cube .box-col2 .card-5 .child-box2 h2{
+font-size: 40px;
+
+}
+.box-cube .box-col2 .card-5 .child-box2 p{
+    color: #fff;
+
+}
+/* /////////////////////////////////////////////////// */
+.box-cube .box-col2 .card-6{
+    display: flex;
+    flex-direction: column;
+   
+    width: 41vh;
+    height: 35vh;
+}
+
+.box-cube .box-col2 .card-6 .child-box3{
+    background-color: rgb(24, 24, 23);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+.box-cube .box-col2 .card-6 .child-box3 h2{
+    font-size: 40px;
+    color:  #cc3333;
+}
+.box-cube .box-col2 .card-6 .child-box3 p{
+    color: #fff;
+}
+.box-cube .box-col2 .card-6 .child-box4{
+    background-color:  rgb(24, 24, 23);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    margin-top: 30px;
+
+}
+.box-cube .box-col2 .card-6 .child-box4 h2{
+    font-size: 40px;
+    color:  #cc3333;
+}
+.box-cube .box-col2 .card-6 .child-box4 p{
+    color: rgb(252, 252, 252);
+}
+/* ////////bottom//// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+.featured-project{
+    /* background-color: rgb(207, 224, 224); */
+    margin-top: 125vh;
+    margin-left: 215px;  
+   display: flex;
+   width: 135vh;
+   height: 135vh;
+   flex-direction: column;
+   
+}
+.featured-project h2{
+    color: #fff;
+    font-size: 20px;
+}
+.featured-project p{
+    color: #fff;
+}
+.featured-project button{
+    position: absolute;
+    left: 149vh;
+    padding: 15px 30px;
+    background-color: #cc3333;
+    color: #fff;
+    border :hidden;
+}
+.temp1{
+    
+    width: 135vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+
+}
+.temp1 img{
+    width: 390px;
+    padding: 50px 20px;
+}
+.temp1 img:nth-child(1){
+    background-color: rgb(24, 24, 23);
+
+}
+/* ///////////////////////////// */
+.text1{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 340px;
+
+}
+.text1 .text11 a {
+    color: #cc3333;
+    text-decoration: none;
+}
+.text1 .text12 a {
+    color:  #cc3333;
+    text-decoration: none;
+}
+/* ////////////////////////////// */
+
+.temp2{
+    /* background-color: aquamarine; */
+    /* width: 235px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+   
+
+}
+.temp2 img{
+    background-color: rgb(24, 24, 23);
+    width: 59vh;
+    padding: 50px 20px;
+}
+.text2{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 325px;
+
+}
+.text2 .text13 a {
+    color:  #cc3333;
+    text-decoration: none;
+
+}
+.text2 .text14 a {
+    color:  #cc3333;
+    text-decoration: none;
+}
+/* ////start bottom   last section */
+/* /////////////////////////////////////////////////////////// */
+
+.bottom-box .bottom-x {
+    background-color:rgb(24, 24, 23);
+    width: 136vh;
+    /* color: blue; */
+    height: 40vh;
+    margin-left: 210px;
+}
+.bottom-box .bottom-x h2{
+    font-size: 40px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 100px;
+    padding: 30px;
+}
+.bottom-box .bottom-x p{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 60px;
+    width: 80vh;
+    align-items: center;
+    
+}
+.bottom-box .bottom-x button{
+    font-size: 18px;
+    position: absolute;
+    background-color: #cc3333;
+    border: hidden;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 100vh;
+    margin-top: -20vh;
+}
+
+/*   BOTTOM MENU ////// */
+/* ///////////////////////////////////////////// */
+
+.bootom-menu{
+  
+    margin-top: 50px;
+
+}
+.bootom-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;  
+    color: #fff;  
+}
+/* ///////////////////Footer start //////////// */
+/* ////////////////////////////////////////////////////////// */
+
+.footer{
+    background-color: rgb(24, 24, 23);
+    height: 100px;
+    margin-top: 20px;
+}
+.footer img:nth-child(1){
+    /* background-color: aqua; */
+    margin-left: 30vh;
+    margin-bottom: 15px;
+
+
+}
+.footer img:nth-child(2){
+    
+    width: 350px;
+    margin-top: 20px;
+    margin-left:200px;
+
+}
