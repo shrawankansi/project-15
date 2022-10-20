@@ -87,7 +87,7 @@ body{
 .card-section .box-cube .box-col1 {
     /* background-color: rgb(236, 142, 19); */
     
-   display: flex;
+    display: flex;
     justify-content: space-around;
     width: 140vh;
     height: 50vh;
@@ -431,4 +431,20 @@ font-size: 40px;
     margin-top: 20px;
     margin-left:200px;
 
+}
+
+/* ...................media qurey....................................................................................... */
+
+
+@media screen and ( min-width: 360px) {
+    .navbar img{
+        width: 50px;
+        height: 50px;
+         
+     } 
+     .navbar div ul{
+         margin-left: center;
+         
+    }
+    
 }
