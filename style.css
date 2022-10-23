@@ -19,17 +19,23 @@ body{
 }
 .navbar img{
    margin-left:40px;
-    
+
+
 }
 .navbar div ul li{
     
-    color: #fff;
+    color: rgb(255, 255, 255);
     display: inline;
     top: 10px;
     margin-left: 30px;
 }
 
-
+.navbar div ul li:hover{
+    color: #cc3333;
+    transition: 1s;
+    cursor: pointer;
+    
+}
 
 .navbar div ul{
     margin-top: 10px;
@@ -41,6 +47,7 @@ body{
     width: 500px;
     margin-left: 80px;
 }
+
 .image-main .my-intro{
     /* background-color: aqua; */
     margin-left: 90vh;
@@ -436,15 +443,22 @@ font-size: 40px;
 /* ...................media qurey....................................................................................... */
 
 
-@media screen and ( min-width: 360px) {
+@media screen and ( max-width:660px) {
     .navbar img{
         width: 50px;
         height: 50px;
          
      } 
-     .navbar div ul{
-         margin-left: center;
+     li{
+        font-size: 10px;
          
     }
-    
+    .image-main{
+        display: flex;
+        /* background-color: aqua; */
+        flex-direction: row;
+    }
+    .my-intro{
+        align-items: center;
+    }
 }
