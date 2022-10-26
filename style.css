@@ -57,13 +57,14 @@ body{
 }
 .image-main .my-intro p:nth-child(1){
    
-    color:  #cc3333;
+    color:  #0b6d94;
     font-size: 20px;
+   
 
 }
 .image-main .my-intro h1{
     
-    color: #fff;
+    color: rgb(184, 26, 118);
     font-size: 60px;
 
 }
