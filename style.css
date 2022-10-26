@@ -155,8 +155,10 @@ body{
     height: 150px;
     padding: 80px 60px;
 }
- .card-3:hover{
-    background-color: #0b6d94;
+.card-section .box-cube .box-col1 .cardA:hover{
+    background-color: rgb(17, 109, 109);
+    cursor: pointer;
+   
 }
 .card-section .box-cube .box-col1 .card-3 img{
     position: absolute;
