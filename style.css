@@ -86,6 +86,7 @@ body{
 }
 .image-main .my-intro button:hover{
     background-color: rgb(17, 109, 109);
+    cursor: pointer;
    
 }
 
