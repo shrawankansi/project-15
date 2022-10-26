@@ -383,14 +383,14 @@ font-size: 40px;
 }
 .bottom-box .bottom-x h2{
     font-size: 40px;
-    color: #fff;
+    color: rgb(151, 39, 82);
     margin-left: 40px;
     margin-top: 100px;
     padding: 30px;
 }
 .bottom-box .bottom-x p{
     font-size: 15px;
-    color: #fff;
+    color: rgb(68, 100, 121);
     margin-left: 60px;
     width: 80vh;
     align-items: center;
