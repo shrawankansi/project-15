@@ -84,6 +84,11 @@ body{
     border: hidden;
     border-radius: 3px;
 }
+.image-main .my-intro button:hover{
+    background-color: rgb(17, 109, 109);
+   
+}
+
 .card-section .box-cube{
     background-color: rgb(15, 15, 15);
     position: absolute;
